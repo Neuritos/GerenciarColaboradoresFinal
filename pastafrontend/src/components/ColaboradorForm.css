@@ -1,0 +1,84 @@
+/* ColaboradorForm.css */
+
+.formulario {
+  max-width: 8000px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.campos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.campos div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 7%;
+}
+
+.campos label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.campos input,
+.campos select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button[type="submit"],
+button[type="button"] {
+    height: 40px;
+    width: 200px;
+  margin-top: 30px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+button[type="submit"]:hover,
+button[type="button"]:hover {
+  background-color: #03301a;
+}
+
+@media (max-width: 768px) {
+  .campos {
+    grid-template-columns: 1fr;
+  }
+}
+.btns-baixo {
+    text-align: center;
+}
+
+.btn-limpar {
+        height: 40px;
+    width: 200px;
+  margin-top: 30px;
+  background-color: #c22121;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}

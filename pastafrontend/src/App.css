@@ -1,0 +1,47 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.formulario {
+  background: #f2f2f2;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.campos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+}
+
+button {
+  margin: 4px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.input-pesquisa {
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+
+h1 {text-align: center;}
